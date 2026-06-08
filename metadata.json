@@ -1,0 +1,6 @@
+{
+  "name": "Organization Expense Tracker",
+  "description": "Secure multi-tenant organizational expense tracker with roles for Accountants and Employees, supporting receipt uploads and professional PDF exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
