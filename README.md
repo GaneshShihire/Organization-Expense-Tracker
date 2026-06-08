@@ -2,6 +2,23 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
+
+# Corporate Expense Ledger & Team Auditing Suite
+
+A multi-tenant, full-stack corporate expense tracking and audit platform designed for seamless financial bookkeeping and organizational management. Engineered using React, Vite, Tailwind CSS, Express, and jsPDF.
+
+## 🌟 Key Features
+
+*   **Multi-Role Hierarchy**:
+    *   👑 **Owner**: Absolute oversight of the system. Can register accountants, manage company metadata, and audit accountant/organization credentials (including IDs and raw security passwords).
+    *   💼 **Accountant**: Manage operational categories/projects, register employees, approve/reject transactions, and look up team profiles (email, password, and transaction history).
+    *   🧑‍💼 **Employee**: Dynamic submission forms with image receipt attachments, status logs, and immediate data persistence.
+*   **Decentralized Downloads**: Every single transaction report is downloadable individually in both production-ready PDF format and CSV spreadsheet format directly from the main submission table.
+*   **Brand Customization**: Fully integrated FileReader engine that allows owners and accountants to upload base64 corporate brand images as circular logo headers on all documents.
+*   **Security Blocking Protocol**: Custom error banners and request rejections on login:
+    *   Employees blocked by Accountants see: `"you are blocked please contact to your accountants"`
+    *   Accountants blocked by Owners see: `"you are blocked please contact to 9021474371 or shihireganesh0@gmail.com to unblock"`
+
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
